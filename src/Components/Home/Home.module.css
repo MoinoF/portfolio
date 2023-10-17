@@ -1,0 +1,8 @@
+.home {
+   display: grid;
+   /* grid-template-columns: repeat(5, 100%); */
+}
+
+.page {
+  width: 100%;
+}

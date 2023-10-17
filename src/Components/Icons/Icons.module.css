@@ -1,0 +1,15 @@
+.icons {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.icon {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  scale: 1.2;
+}

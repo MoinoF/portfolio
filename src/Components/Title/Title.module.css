@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Tipografica";
+  src: url("../../assets/fonts/Typographica-Blp5.ttf");
+}
+
+.title {
+  display: flex;
+  gap: 2rem;
+  place-content: center;
+}
+
+.ret {
+  width: 9px;
+  height: 80px;
+  align-self: center;
+  background: #444;
+}
+
+.titleValue {
+  font-family: Tipografica;
+  text-transform: lowercase;
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+}
+
+.dark {
+  color: #444444;
+}
+
+.light {
+  color: #cccccc;
+}

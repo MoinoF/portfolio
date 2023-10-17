@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  cursor: pointer;
+  z-index: 1;
+  align-items: flex-start;
+}
+
+.menu:hover {
+  scale: 1.02;
+}
+.menuLine1::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 2px;
+}
+
+.menuLine2::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  margin-bottom: 5px;
+}
+
+.menuLine3::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  margin-bottom: 14px;
+}
+
+.dark::after {
+  background: #101010;
+}
+
+.light::after {
+  background: #e6e6e6;
+}

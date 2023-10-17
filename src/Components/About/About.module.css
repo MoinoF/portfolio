@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Tipographica";
+  src: url("../../assets/fonts/Typographica-Blp5.ttf");
+}
+
+.about {
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.dark {
+  background: #101010;
+  color: #e6e6e6;
+}
+
+.light {
+  color: #101010;
+  background: #e6e6e6;
+}
+
+.container {
+  max-width: 75rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  display: grid;
+  align-items: center;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+/* Rectangle */
+.ret {
+  width: 9px;
+  height: 80px;
+  align-self: center;
+}
+
+.dark_ret {
+  background: #444;
+}
+
+.light_ret {
+  background: #ccc;
+}
+
+.contant {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.name {
+  font-family: Tipographica;
+  text-transform: lowercase;
+  letter-spacing: 0.1rem;
+}
+
+.paragraph {
+  display: grid;
+  gap: 1rem;
+  max-width: 25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.text_dark {
+  color: #b3b3b3;
+}
+
+.text_light {
+  color: #333333;
+}
+
+.dark_bold {
+  color: #e6e6e6;
+}
+
+.light_bold {
+  color: #101010;
+}
+
+.title {
+  align-self: center;
+}

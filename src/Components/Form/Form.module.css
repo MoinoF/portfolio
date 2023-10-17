@@ -1,0 +1,16 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 3rem;
+  margin-top: 3rem;
+}
+
+.button {
+  grid-column: 2;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: column;
+}

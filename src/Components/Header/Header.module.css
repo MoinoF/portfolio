@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Tipografica";
+  src: url("../../assets/fonts/Typographica-Blp5.ttf");
+}
+
+.home {
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.dark {
+  background: #101010;
+  color: #e6e6e6;
+}
+
+.light {
+  color: #101010;
+  background: #e6e6e6;
+}
+
+.container {
+  max-width: 75rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  display: grid;
+  grid-template-rows: 0rem auto;
+}
+
+.name {
+  font-size: 4rem;
+  font-family: "Tipografica";
+  text-transform: lowercase;
+  letter-spacing: 0.4rem;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 3rem;
+  display: none;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background: none;
+  display: inline-block;
+  width: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.toogleButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.button:hover,
+.toogleButton:hover {
+  scale: 1.1;
+}
+
+.close {
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+  z-index: 100;
+  color: #fff;
+  cursor: pointer;
+  transition: 1s;
+  display: none;
+}
+
+.close:hover {
+  scale: 1.1;
+}
+
+.logo {
+  width: 10rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.log {
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 3rem;
+}

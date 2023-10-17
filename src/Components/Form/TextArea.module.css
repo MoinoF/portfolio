@@ -1,0 +1,20 @@
+.textarea {
+  background: none;
+  border: none;
+}
+
+.dark {
+  border-bottom: 1px solid #aaa;
+}
+
+.dark::placeholder {
+  color: #aaa;
+}
+
+.light {
+  border-bottom: 1px solid #3333;
+}
+
+.light::placeholder {
+  color: #4d4d4d;
+}

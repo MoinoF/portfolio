@@ -1,0 +1,57 @@
+.background {
+  min-height: 100vh;
+  background: url("../../assets/img/home/about.jpg") no-repeat bottom center;
+  background-size: cover;
+  position: relative;
+}
+
+.tree {
+  min-height: 100vh;
+  background: url("../../assets/img/home/tree.png") no-repeat bottom center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  max-width: 75rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 5rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.info {
+  padding: 4rem 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+  border: solid rgba(255, 255, 255, 0.2) 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: var(--paragraph);
+  display: grid;
+  gap: 2rem;
+  justify-items: flex-end;
+}
+
+.title {
+  color: var(--paragraph);
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.description {
+  line-height: 1.4rem;
+  text-align: right;
+}
+
+@media (max-width: 1206px) {
+  .title {
+    font-size: 4rem;
+  }
+}

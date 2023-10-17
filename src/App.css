@@ -1,0 +1,103 @@
+:root {
+  --logo: #6cb097;
+  --navbar: #91ebd9;
+  --paragraph: #87a37e;
+  --name: #87a37e;
+  --dark-bg: #101010;
+  --light-bg: #e6e6e6;
+  --dark-color: #101010;
+  --light-color: #e6e6e6;
+  --red: #c10016;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  /* max-height: 100vh; */
+  background: #101010;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.dark {
+  background: #101010;
+  color: #e6e6e6;
+}
+
+.light {
+  color: #101010;
+  background: #e6e6e6;
+}
+
+.container {
+  max-width: 75rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  /* display: grid; */
+  /* align-items: center; */
+}
+
+.animeTop {
+  animation: animeTop 0.6s forwards;
+}
+
+@keyframes animeTop {
+  from {
+    opacity: 0;
+    top: -100%;
+  }
+  to {
+    opacity: initial;
+    top: 0;
+  }
+}
+
+.c,
+.o,
+.g {
+  text-shadow: -6px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.c_l,
+.o_l,
+.g_l {
+  text-shadow: -2px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.photoModal {
+  animation: photoModal .6s forwards;
+}
+
+@keyframes photoModal {
+  from {
+    scale: .8;
+  }
+
+  to {
+    scale: initial;
+  }
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}

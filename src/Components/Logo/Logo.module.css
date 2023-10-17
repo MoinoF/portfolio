@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Tipografica";
+  src: url("../../assets/fonts/Typographica-Blp5.ttf");
+}
+
+.logo h1 span {
+  font-family: Tipografica;
+  text-transform: lowercase;
+  font-size: 4rem;
+}
+
+.logo h1 {
+  display: flex;
+  letter-spacing: -0.2rem;
+}

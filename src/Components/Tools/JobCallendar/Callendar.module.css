@@ -1,0 +1,14 @@
+.callendar {
+  /* background: #101010; */
+  border: none;
+}
+
+.dark {
+  background: #101010;
+  color: #e6e6e6;
+}
+
+.light {
+  color: #101010;
+  background: #e6e6e6;
+}
